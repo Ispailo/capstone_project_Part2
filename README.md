@@ -8,7 +8,7 @@ Je pourrai alors démarrer mon ensemble de conteneurs en une seule commande dock
 
 Dans le fichier docker-compose.yml, chaque conteneur est décrit avec un ensemble de paramètres qui correspondent aux options disponibles lors d’un docker run : l’image à utiliser, les volumes à monter, les ports à ouvrir, etc. Mais on peut également y décrire des éléments supplémentaires, comme la possibilité de « construire » (docker build) une image à la volée avant d’en lancer le conteneur.
 
-####################Partie 2 : Conteneuriser une application Node.js pour le développement avec Docker Compose####################
+                           Partie 2 : Conteneuriser une application Node.js pour le développement avec Docker Compose
 
 Ce tutoriel vous montrera comment configurer un environnement de développement pour une application Node.js à l'aide de Docker. Vous allez créer deux conteneurs — un pour l'application Node et un autre pour la base de données MongoDB — avec Docker Compose. Étant donné que cette application fonctionne avec Node et MongoDB, notre configuration effectuera les opérations suivantes :
 
